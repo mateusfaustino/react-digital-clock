@@ -9,7 +9,7 @@ flex-direction: column;
 background:${palette.primary.dark};
 position: fixed;
 border-top:1px solid #fff;
-top: 52px;
+top: 50px;
 right: 0;
 width: 70%;
 height: calc(100vh - 40px);

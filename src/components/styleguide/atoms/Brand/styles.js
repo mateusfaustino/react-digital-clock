@@ -1,6 +1,11 @@
 import styled from 'styled-components'
 const StyledContainer = styled.div`
-        svg{
+a{
+    display:flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+}
+svg{
             width:auto;
             height:44px;
             
