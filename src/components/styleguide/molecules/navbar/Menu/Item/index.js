@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 const Item = (props) => {
 return(
 <Container onClick={props.onClick}>
-    <Link to={props.to}>
+    <a target="_blank" rel="noreferrer noopener" href={props.to}>
         {props.children}
-    </Link>
+    </a>
 </Container>
 )
 }
