@@ -4,7 +4,7 @@ const StyledContainer = styled.div`
 `
 const Container = (props)=>{
     return(
-        <StyledContainer>
+        <StyledContainer onClick={props.onClick}>
             {props.children}
         </StyledContainer>
     )
