@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const Brand = () => {
     return (
         <Container >
-            <Link to='/'>
+            <Link to='/clock'>
                 <SVGLogo/>
                 
             </Link>

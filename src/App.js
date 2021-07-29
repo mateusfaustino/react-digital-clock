@@ -12,7 +12,7 @@ const App = ()=>{
         <GlobalStyle theme='dark'/>
         <Navbar/>
           <Switch id='switchTag'>
-            <Route path='/' exact component={Home}/>
+            <Route path='/clock' exact component={Home}/>
           </Switch>
         </SpacingProvider>
       </ScreenProvider>
