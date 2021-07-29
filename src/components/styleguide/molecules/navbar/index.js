@@ -16,9 +16,7 @@ const Navbar = (props) => {
         <NavWrapper 
             spacing={spacing}
             isActive={isActive} 
-            isDisplayed={
-                isActive ? true : scrollDirection=='up'? true : scrollDirection=='down'?false:true
-        }>
+            isDisplayed={true}>
             <Nav>
                 <Logo isActive={isActive}/>
                 <Menu isActive={isActive} setIsActive={()=>setIsActive(false)}/>

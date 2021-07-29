@@ -8,6 +8,7 @@ padding: 50px 40px 8px;
 flex-direction: column;
 background:${palette.primary.dark};
 position: fixed;
+border-top:1px solid #fff;
 top: 52px;
 right: 0;
 width: 70%;

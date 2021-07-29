@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import {palette} from '../styleguide/atoms/colors'
 export const ClockPad = styled.div`
 display:flex;
 align-items:center;
@@ -10,14 +10,14 @@ font-family: "Segoe UI", sans-serif;
 width:100%;
 max-width:340px;
 padding:15px 10px;
-border:3px solid #2E94E3;
+border:3px solid ${palette.primary.light};
 border-radius:5px;
 -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255,255,255,0.1));
 transition:0.5s;
 transition-property:background, box-shadow ;
 background:rgba(0,0,0, 0.4);
 &:hover{
-    background:#2E94E3;
+    background:${palette.primary.light};
     box-shadow: 0 0 30px #2E94E3;
 }
 .zero:before{
