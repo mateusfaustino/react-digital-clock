@@ -9,7 +9,7 @@ const App = ()=>{
     <BrowserRouter>
       <ScreenProvider>
       <SpacingProvider>
-        <GlobalStyle/>
+        <GlobalStyle theme='dark'/>
         <Navbar/>
           <Switch id='switchTag'>
             <Route path='/' exact component={Home}/>
