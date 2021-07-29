@@ -8,7 +8,7 @@ const StyledContainer = styled.div`
     justify-content: center;
     height:100vh;
     margin: 50px ${props=>props.margin};
-    background:#10101E;
+    
 `
 
 const Container = (props)=>{
